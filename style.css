@@ -1,0 +1,48 @@
+body{
+
+}
+
+table {
+    margin:auto;
+    margin-top: 40px;
+    width: 50%;
+    border-bottom:solid 1px #333;
+    padding:2px 4px;
+    font:15px ;
+}
+
+td {
+	margin: auto;
+    width: 50%;
+    border-bottom:solid 1px #333;
+    border-left: solid 1px #333;
+    border-right: solid 1px #333;
+    padding:2px 4px;
+    font:15px ;
+}
+
+th {
+    font-weight:bold;
+    padding: 3px;
+    border:solid 1px #333;
+    text-align: center;
+}
+
+#showData{
+	text-align: center;
+	padding: auto;
+}
+
+#form{
+	margin-top: 50px;
+	align-items: center;
+}
+
+#showRes{
+	margin-top: 50px;
+}
+
+ul li{
+	list-style: none;
+	margin-bottom: 2px;
+}

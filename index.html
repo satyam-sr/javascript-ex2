@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Know about Repositories</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">-->
+</head>
+
+<body onload="fun()">
+	<!--<div class="container">
+	  <input type="text" id="link" name="value">
+      <button onclick="fun(document.getElementById('link').value)">Search Repo</button>
+      <br>
+      <p id="detail"></p>
+    </div>-->
+
+	
+	<div id="showData"></div>
+
+	<div id="form">
+		<ul>
+		  <li> Enter Github URL: <input type="text" id="link"></li>
+		<!--issue count: <input type="checkbox" id="issue"> <br>
+		branch: <input type="checkbox" id="branch"> <br>
+		commit: <input type="checkbox" id="commit"> <br>
+		contributors: <input type="checkbox" id="contributors"> <br>-->
+		  <li>Enter keyword: <input type="text" id="keyw"></li>
+		  <li><button onclick="func(document.getElementById('link').value,document.getElementById('keyw').value)">Search Repo</button></li>
+		</ul>
+
+	</div>
+
+	<h1 id="showRes"></h1>
+
+	<script type="text/javascript" src="sol.js"></script>
+</body>
+</html>
